@@ -26,7 +26,7 @@ class Dog
     DB[:conn].execute(sql)
   end
   
-  def self.save
+  def save
     sql = <<-SQL
       INSERT INTO dogs (name, breed) 
       VALUES (?, ?)
