@@ -38,4 +38,6 @@ class Dog
     self
   end
   
+  def self.creat
+  
 end
