@@ -49,7 +49,7 @@ class Dog
     attributes[:id] = row [0]
     attributes[:name] =  row[1]
     attributes[:breed] = row[2]
-    new_dog = self.new 
+    new_dog = self.new(attributes) 
   end
   
   
